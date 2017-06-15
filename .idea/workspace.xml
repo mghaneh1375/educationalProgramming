@@ -22,38 +22,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="SchedulerController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/SchedulerController.php">
+      <file leaf-file-name="laravel.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/storage/logs/laravel.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding>
-                <element signature="n#addSchedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
-                <element signature="e#1286#2386#0#PHP" expanded="false" />
-                <element signature="e#1808#2386#0#PHP" expanded="false" />
-                <element signature="e#2533#2920#0#PHP" expanded="false" />
-                <element signature="n#doAddSchedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
-                <element signature="e#2985#5682#0#PHP" expanded="false" />
-                <element signature="e#5528#5682#0#PHP" expanded="false" />
-                <element signature="n#schedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="12800">
+              <caret line="472" column="0" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/schedule.blade.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7689">
-              <caret line="233" column="34" selection-start-line="233" selection-start-column="34" selection-end-line="233" selection-end-column="34" />
-              <folding>
-                <marker date="1494700577774" expanded="true" signature="3380:3392" placeholder="..." />
-                <marker date="1494700577774" expanded="true" signature="4346:4382" placeholder="..." />
-                <marker date="1494700577774" expanded="true" signature="4364:4382" placeholder="..." />
-                <marker date="1494700577774" expanded="true" signature="4753:4789" placeholder="..." />
-                <marker date="1494700577774" expanded="true" signature="7497:7509" placeholder="..." />
-                <marker date="1494700577774" expanded="true" signature="7497:7534" placeholder="..." />
-              </folding>
+            <state relative-caret-position="806">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,10 +45,9 @@
       <file leaf-file-name="AjaxHandler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/AjaxHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="167" column="46" selection-start-line="167" selection-start-column="46" selection-end-line="167" selection-end-column="46" />
+            <state relative-caret-position="1548">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
-                <element signature="n#getLessons#0;n#ajaxHandler#0;n#!!top" expanded="false" />
                 <element signature="n#getSubjects#0;n#ajaxHandler#0;n#!!top" expanded="false" />
                 <element signature="n#addNewAssign#0;n#ajaxHandler#0;n#!!top" expanded="false" />
                 <element signature="n#getSubjectsByChangingStep#0;n#ajaxHandler#0;n#!!top" expanded="false" />
@@ -74,127 +57,142 @@
                 <element signature="n#getDefaultTagAndSubject#0;n#ajaxHandler#0;n#!!top" expanded="false" />
                 <element signature="n#deleteSelectedSubjectFromAssign#0;n#ajaxHandler#0;n#!!top" expanded="false" />
                 <element signature="n#getMySchedules#0;n#ajaxHandler#0;n#!!top" expanded="false" />
-                <element signature="e#8588#10159#0#PHP" expanded="false" />
-                <element signature="e#9705#10159#0#PHP" expanded="false" />
-                <element signature="e#10173#10654#0#PHP" expanded="false" />
+                <element signature="e#8585#10156#0#PHP" expanded="false" />
+                <element signature="e#9702#10156#0#PHP" expanded="false" />
+                <element signature="e#10170#10651#0#PHP" expanded="false" />
                 <element signature="n#createPDF#0;n#ajaxHandler#0;n#!!top" expanded="false" />
                 <element signature="n#parse#0;n#ajaxHandler#0;n#!!top" expanded="false" />
                 <element signature="n#getChatId#0;n#ajaxHandler#0;n#!!top" expanded="false" />
+                <marker date="1497547923744" expanded="true" signature="118:13127" placeholder="..." />
+                <marker date="1497547923744" expanded="true" signature="557:1357" placeholder="..." />
+                <marker date="1497547923744" expanded="true" signature="1365:1869" placeholder="..." />
+                <marker date="1497547923744" expanded="true" signature="12470:13125" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <file leaf-file-name="ReportHandler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ReportHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15609">
-              <caret line="473" column="47" selection-start-line="473" selection-start-column="47" selection-end-line="476" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/menu.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendTelegramMessage.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sendTelegramMessage.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+            <state relative-caret-position="318">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
-                <marker date="1494751658284" expanded="true" signature="397:412" placeholder="..." />
+                <element signature="n#grades#0;n#ReportHandler#0;n#!!top" expanded="false" />
+                <element signature="n#opOnGrades#0;n#ReportHandler#0;n#!!top" expanded="false" />
+                <element signature="e#285#2194#0#PHP" expanded="false" />
+                <element signature="e#501#907#0#PHP" expanded="false" />
+                <element signature="e#524#893#0#PHP" expanded="false" />
+                <element signature="e#780#893#0#PHP" expanded="false" />
+                <element signature="e#931#2194#0#PHP" expanded="false" />
+                <element signature="e#1166#2194#0#PHP" expanded="false" />
+                <element signature="e#1489#2194#0#PHP" expanded="false" />
+                <element signature="e#1644#2184#0#PHP" expanded="false" />
+                <element signature="e#1870#2184#0#PHP" expanded="false" />
+                <element signature="n#subjects#0;n#ReportHandler#0;n#!!top" expanded="false" />
+                <element signature="e#2418#2619#0#PHP" expanded="false" />
+                <element signature="e#2441#2618#0#PHP" expanded="false" />
+                <element signature="n#opOnSubjects#0;n#ReportHandler#0;n#!!top" expanded="false" />
+                <element signature="e#2807#7201#0#PHP" expanded="false" />
+                <element signature="e#3519#4125#0#PHP" expanded="false" />
+                <element signature="e#3542#4111#0#PHP" expanded="false" />
+                <element signature="e#3985#4111#0#PHP" expanded="false" />
+                <element signature="e#4150#7201#0#PHP" expanded="false" />
+                <element signature="e#4526#7201#0#PHP" expanded="false" />
+                <element signature="e#5033#5323#0#PHP" expanded="false" />
+                <element signature="e#5056#5322#0#PHP" expanded="false" />
+                <element signature="e#5348#7201#0#PHP" expanded="false" />
+                <element signature="e#5850#7106#0#PHP" expanded="false" />
+                <element signature="e#6267#7106#0#PHP" expanded="false" />
+                <element signature="e#6791#7091#0#PHP" expanded="false" />
+                <element signature="e#6814#7090#0#PHP" expanded="false" />
+                <element signature="e#7252#7503#0#PHP" expanded="false" />
+                <element signature="e#7275#7502#0#PHP" expanded="false" />
+                <element signature="n#stages#0;n#ReportHandler#0;n#!!top" expanded="false" />
+                <element signature="n#quizes#0;n#ReportHandler#0;n#!!top" expanded="false" />
+                <element signature="n#opOnQuiz#0;n#ReportHandler#0;n#!!top" expanded="false" />
+                <element signature="e#7909#10933#0#PHP" expanded="false" />
+                <element signature="e#8171#8568#0#PHP" expanded="false" />
+                <element signature="e#8194#8554#0#PHP" expanded="false" />
+                <element signature="e#8449#8554#0#PHP" expanded="false" />
+                <element signature="e#8592#10933#0#PHP" expanded="false" />
+                <element signature="e#8813#10933#0#PHP" expanded="false" />
+                <element signature="e#9044#10933#0#PHP" expanded="false" />
+                <element signature="e#9230#9438#0#PHP" expanded="false" />
+                <element signature="e#9523#9787#0#PHP" expanded="false" />
+                <element signature="e#9650#9787#0#PHP" expanded="false" />
+                <element signature="e#9909#10933#0#PHP" expanded="false" />
+                <element signature="e#10498#10933#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
+      <file leaf-file-name="LessonController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/LessonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25938">
-              <caret line="787" column="13" selection-start-line="787" selection-start-column="13" selection-end-line="787" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajaxHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/ajaxHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="227" column="1" selection-start-line="227" selection-start-column="1" selection-end-line="227" selection-end-column="1" />
+            <state relative-caret-position="859">
+              <caret line="122" column="76" selection-start-line="122" selection-start-column="76" selection-end-line="122" selection-end-column="76" />
               <folding>
-                <element signature="n#!!block;n#generalChangeDegree#0" expanded="false" />
-                <element signature="e#120#642#0" expanded="false" />
-                <element signature="e#137#634#0" expanded="false" />
-                <element signature="e#230#358#0" expanded="false" />
-                <element signature="e#401#624#0" expanded="false" />
-                <element signature="e#652#1125#0" expanded="false" />
-                <element signature="e#669#1117#0" expanded="false" />
-                <element signature="e#762#841#0" expanded="false" />
-                <element signature="e#884#1107#0" expanded="false" />
-                <element signature="n#!!block;n#generalChangeLesson#0" expanded="false" />
-                <element signature="e#1198#1473#0" expanded="false" />
-                <element signature="e#1280#1348#0" expanded="false" />
-                <element signature="e#1387#1467#0" expanded="false" />
-                <element signature="n#!!block;n#changeQuiz#0" expanded="false" />
-                <element signature="e#1540#1900#0" expanded="false" />
-                <element signature="e#1617#1657#0" expanded="false" />
-                <element signature="e#1696#1894#0" expanded="false" />
-                <element signature="n#!!block;n#changeStage#0" expanded="false" />
-                <element signature="e#1965#3234#0" expanded="false" />
-                <element signature="e#2045#2109#0" expanded="false" />
-                <element signature="e#2148#3228#0" expanded="false" />
-                <element signature="e#2232#2385#0" expanded="false" />
-                <element signature="e#2403#3218#0" expanded="false" />
-                <element signature="e#2485#3136#0" expanded="false" />
-                <element signature="n#!!block;n#deleteSelectedSubjectFromAssign#0" expanded="false" />
-                <element signature="e#3313#3599#0" expanded="false" />
-                <element signature="e#3399#3492#0" expanded="false" />
-                <element signature="e#3531#3593#0" expanded="false" />
-                <element signature="n#!!block;n#changeTag#0" expanded="false" />
-                <element signature="e#3676#4137#0" expanded="false" />
-                <element signature="e#3752#3857#0" expanded="false" />
-                <element signature="e#3896#4131#0" expanded="false" />
-                <element signature="e#3928#4024#0" expanded="false" />
-                <element signature="n#!!block;n#changeScheduleItem#0" expanded="false" />
-                <element signature="e#4287#4479#0" expanded="false" />
-                <element signature="e#4360#4473#0" expanded="false" />
-                <element signature="n#!!block;n#getDefaultValTagAndSubject#0" expanded="false" />
-                <element signature="e#4562#5616#0" expanded="false" />
-                <element signature="e#4640#4745#0" expanded="false" />
-                <element signature="e#4784#5610#0" expanded="false" />
-                <element signature="e#4867#5025#0" expanded="false" />
-                <element signature="e#5058#5464#0" expanded="false" />
-                <element signature="e#5243#5450#0" expanded="false" />
-                <element signature="e#5493#5600#0" expanded="false" />
-                <element signature="n#!!block;n#addNewAssign#0" expanded="false" />
-                <element signature="e#5674#5980#0" expanded="false" />
-                <element signature="e#5741#5832#0" expanded="false" />
-                <element signature="e#5871#5974#0" expanded="false" />
-                <element signature="n#!!block;n#getMySchedules#0" expanded="false" />
-                <element signature="e#6047#6305#0" expanded="false" />
-                <element signature="e#6116#6182#0" expanded="false" />
-                <element signature="e#6221#6299#0" expanded="false" />
-                <element signature="n#!!block;n#createPDF#0" expanded="false" />
-                <element signature="e#6349#6454#0" expanded="false" />
-                <element signature="e#6413#6448#0" expanded="false" />
-                <element signature="n#!!block;n#sendToTelegram#0" expanded="false" />
-                <element signature="e#6515#6738#0" expanded="false" />
-                <element signature="e#6584#6656#0" expanded="false" />
-                <element signature="e#6693#6732#0" expanded="false" />
-                <marker date="1494698247055" expanded="false" signature="2748:2765" placeholder="..." />
-                <marker date="1494698247055" expanded="false" signature="2979:2995" placeholder="..." />
+                <element signature="n#lessons#0;n#LessonController#0;n#!!top" expanded="false" />
+                <element signature="e#1483#6748#0#PHP" expanded="false" />
+                <element signature="e#1801#2243#0#PHP" expanded="false" />
+                <element signature="e#1824#2229#0#PHP" expanded="false" />
+                <element signature="e#2110#2229#0#PHP" expanded="false" />
+                <element signature="e#4827#6748#0#PHP" expanded="false" />
+                <element signature="e#5049#6748#0#PHP" expanded="false" />
+                <element signature="e#5400#5595#0#PHP" expanded="false" />
+                <element signature="e#5422#5594#0#PHP" expanded="false" />
+                <element signature="e#5621#6748#0#PHP" expanded="false" />
+                <element signature="e#5879#6652#0#PHP" expanded="false" />
+                <element signature="e#6135#6652#0#PHP" expanded="false" />
+                <element signature="e#6455#6637#0#PHP" expanded="false" />
+                <element signature="e#6477#6636#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lessons.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#2155#2179#0#HTML" expanded="true" />
+                <element signature="e#2408#2427#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="n#home#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#addAdviser#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#doAddAdviser#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#login#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#doLogin#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#logout#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#addTag#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#doOpOnTag#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#addStudent#0;n#HomeController#0;n#!!top" expanded="false" />
+                <element signature="n#doAddStudent#0;n#HomeController#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subjects.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/subjects.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="862">
+              <caret line="19" column="96" selection-start-line="19" selection-start-column="96" selection-end-line="19" selection-end-column="96" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -204,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/app/config/auth.php" />
@@ -214,7 +211,6 @@
         <option value="$PROJECT_DIR$/app/models/Student.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/newUserForm.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/addNewUser.blade.php" />
         <option value="$PROJECT_DIR$/app/views/addLesson.blade.php" />
         <option value="$PROJECT_DIR$/app/models/Degree.php" />
         <option value="$PROJECT_DIR$/app/models/Subject.php" />
@@ -232,29 +228,31 @@
         <option value="$PROJECT_DIR$/app/views/addDegree.blade.php" />
         <option value="$PROJECT_DIR$/app/views/degrees.blade.php" />
         <option value="$PROJECT_DIR$/app/views/reports.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
         <option value="$PROJECT_DIR$/app/views/stages.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/vendor/spipu/html2pdf/html2pdf.class.php" />
         <option value="$PROJECT_DIR$/app/controllers/vendor/spipu/html2pdf/_class/myPdf.class.php" />
         <option value="$PROJECT_DIR$/app/views/addQuiz.blade.php" />
         <option value="$PROJECT_DIR$/app/views/quizes.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ReportHandler.php" />
-        <option value="$PROJECT_DIR$/app/views/subjects.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/jdate.php" />
         <option value="$PROJECT_DIR$/app/filters.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/mainLibraries.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/login.blade.php" />
         <option value="$PROJECT_DIR$/app/views/addScheduler.blade.php" />
-        <option value="$PROJECT_DIR$/app/storage/logs/laravel.log" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/SchedulerController.php" />
         <option value="$PROJECT_DIR$/app/views/schedule.blade.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/menu.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/AjaxHandler.php" />
         <option value="$PROJECT_DIR$/app/views/sendTelegramMessage.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/mainLibraries.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/login.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/menu.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/addNewUser.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ReportHandler.php" />
+        <option value="$PROJECT_DIR$/app/storage/logs/laravel.log" />
+        <option value="$PROJECT_DIR$/app/controllers/LessonController.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/public/js/ajaxHandler.js" />
+        <option value="$PROJECT_DIR$/app/controllers/AjaxHandler.php" />
+        <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/subjects.blade.php" />
       </list>
     </option>
   </component>
@@ -362,24 +360,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="educationalProgrammer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="educationalProgrammer" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,20 +522,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myLaravelProj" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\educationalProgrammer\app\storage" />
-      <recent name="C:\xampp\htdocs\educationalProgrammer\app\views\files" />
-      <recent name="C:\xampp\htdocs\educationalProgrammer\app\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\educationalProgrammer\app\controllers" />
       <recent name="C:\xampp\htdocs\educationalProgrammer\app\models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\educationalProgrammer\app\controllers" />
+      <recent name="C:\xampp\htdocs\educationalProgrammer\app\storage" />
+      <recent name="C:\xampp\htdocs\educationalProgrammer\app\views\files" />
+      <recent name="C:\xampp\htdocs\educationalProgrammer\app\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -630,18 +611,18 @@
       <workItem from="1494927946842" duration="656000" />
       <workItem from="1495114678882" duration="792000" />
       <workItem from="1496554576705" duration="25000" />
-      <workItem from="1497535788530" duration="11000" />
+      <workItem from="1497535788530" duration="5125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184397000" />
+    <option name="totallyTimeSpent" value="189511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -678,20 +659,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/Interval.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/days.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Schedule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -703,13 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/addNewUser.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -735,13 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
           <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -785,25 +738,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/addQuiz.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/ReportHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="273" column="66" selection-start-line="273" selection-start-column="66" selection-end-line="273" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/addSubjectToQuiz.blade.php" />
     <entry file="file://$PROJECT_DIR$/app/views/jdf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="592" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/subjects.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2211">
-          <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -828,38 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/mainLibraries.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/addScheduler.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69696">
-          <caret line="2112" column="0" selection-start-line="2112" selection-start-column="0" selection-end-line="2112" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -889,26 +800,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/app/views/schedule.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        <state relative-caret-position="7689">
+          <caret line="233" column="34" selection-start-line="233" selection-start-column="34" selection-end-line="233" selection-end-column="34" />
+          <folding>
+            <marker date="1494700577774" expanded="true" signature="3380:3392" placeholder="..." />
+            <marker date="1494700577774" expanded="true" signature="4346:4382" placeholder="..." />
+            <marker date="1494700577774" expanded="true" signature="4364:4382" placeholder="..." />
+            <marker date="1494700577774" expanded="true" signature="4753:4789" placeholder="..." />
+            <marker date="1494700577774" expanded="true" signature="7497:7509" placeholder="..." />
+            <marker date="1494700577774" expanded="true" signature="7497:7534" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/mainLibraries.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="16" column="102" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/addNewUser.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/addScheduler.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SchedulerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="n#addSchedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
+            <element signature="e#1286#2386#0#PHP" expanded="false" />
+            <element signature="e#1808#2386#0#PHP" expanded="false" />
+            <element signature="e#2533#2920#0#PHP" expanded="false" />
+            <element signature="n#doAddSchedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
+            <element signature="e#2985#5682#0#PHP" expanded="false" />
+            <element signature="e#5528#5682#0#PHP" expanded="false" />
+            <element signature="n#schedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/EXCEL/PHPExcel/Cell/DataType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12800">
+          <caret line="472" column="0" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/LessonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="122" column="76" selection-start-line="122" selection-start-column="76" selection-end-line="122" selection-end-column="76" />
+          <folding>
+            <element signature="n#lessons#0;n#LessonController#0;n#!!top" expanded="false" />
+            <element signature="e#1483#6748#0#PHP" expanded="false" />
+            <element signature="e#1801#2243#0#PHP" expanded="false" />
+            <element signature="e#1824#2229#0#PHP" expanded="false" />
+            <element signature="e#2110#2229#0#PHP" expanded="false" />
+            <element signature="e#4827#6748#0#PHP" expanded="false" />
+            <element signature="e#5049#6748#0#PHP" expanded="false" />
+            <element signature="e#5400#5595#0#PHP" expanded="false" />
+            <element signature="e#5422#5594#0#PHP" expanded="false" />
+            <element signature="e#5621#6748#0#PHP" expanded="false" />
+            <element signature="e#5879#6652#0#PHP" expanded="false" />
+            <element signature="e#6135#6652#0#PHP" expanded="false" />
+            <element signature="e#6455#6637#0#PHP" expanded="false" />
+            <element signature="e#6477#6636#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ReportHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="n#grades#0;n#ReportHandler#0;n#!!top" expanded="false" />
+            <element signature="n#opOnGrades#0;n#ReportHandler#0;n#!!top" expanded="false" />
+            <element signature="e#285#2194#0#PHP" expanded="false" />
+            <element signature="e#501#907#0#PHP" expanded="false" />
+            <element signature="e#524#893#0#PHP" expanded="false" />
+            <element signature="e#780#893#0#PHP" expanded="false" />
+            <element signature="e#931#2194#0#PHP" expanded="false" />
+            <element signature="e#1166#2194#0#PHP" expanded="false" />
+            <element signature="e#1489#2194#0#PHP" expanded="false" />
+            <element signature="e#1644#2184#0#PHP" expanded="false" />
+            <element signature="e#1870#2184#0#PHP" expanded="false" />
+            <element signature="n#subjects#0;n#ReportHandler#0;n#!!top" expanded="false" />
+            <element signature="e#2418#2619#0#PHP" expanded="false" />
+            <element signature="e#2441#2618#0#PHP" expanded="false" />
+            <element signature="n#opOnSubjects#0;n#ReportHandler#0;n#!!top" expanded="false" />
+            <element signature="e#2807#7201#0#PHP" expanded="false" />
+            <element signature="e#3519#4125#0#PHP" expanded="false" />
+            <element signature="e#3542#4111#0#PHP" expanded="false" />
+            <element signature="e#3985#4111#0#PHP" expanded="false" />
+            <element signature="e#4150#7201#0#PHP" expanded="false" />
+            <element signature="e#4526#7201#0#PHP" expanded="false" />
+            <element signature="e#5033#5323#0#PHP" expanded="false" />
+            <element signature="e#5056#5322#0#PHP" expanded="false" />
+            <element signature="e#5348#7201#0#PHP" expanded="false" />
+            <element signature="e#5850#7106#0#PHP" expanded="false" />
+            <element signature="e#6267#7106#0#PHP" expanded="false" />
+            <element signature="e#6791#7091#0#PHP" expanded="false" />
+            <element signature="e#6814#7090#0#PHP" expanded="false" />
+            <element signature="e#7252#7503#0#PHP" expanded="false" />
+            <element signature="e#7275#7502#0#PHP" expanded="false" />
+            <element signature="n#stages#0;n#ReportHandler#0;n#!!top" expanded="false" />
+            <element signature="n#quizes#0;n#ReportHandler#0;n#!!top" expanded="false" />
+            <element signature="n#opOnQuiz#0;n#ReportHandler#0;n#!!top" expanded="false" />
+            <element signature="e#7909#10933#0#PHP" expanded="false" />
+            <element signature="e#8171#8568#0#PHP" expanded="false" />
+            <element signature="e#8194#8554#0#PHP" expanded="false" />
+            <element signature="e#8449#8554#0#PHP" expanded="false" />
+            <element signature="e#8592#10933#0#PHP" expanded="false" />
+            <element signature="e#8813#10933#0#PHP" expanded="false" />
+            <element signature="e#9044#10933#0#PHP" expanded="false" />
+            <element signature="e#9230#9438#0#PHP" expanded="false" />
+            <element signature="e#9523#9787#0#PHP" expanded="false" />
+            <element signature="e#9650#9787#0#PHP" expanded="false" />
+            <element signature="e#9909#10933#0#PHP" expanded="false" />
+            <element signature="e#10498#10933#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="40" column="107" selection-start-line="40" selection-start-column="107" selection-end-line="40" selection-end-column="107" />
+        <state relative-caret-position="806">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/AjaxHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="167" column="46" selection-start-line="167" selection-start-column="46" selection-end-line="167" selection-end-column="46" />
+        <state relative-caret-position="1548">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="n#getLessons#0;n#ajaxHandler#0;n#!!top" expanded="false" />
             <element signature="n#getSubjects#0;n#ajaxHandler#0;n#!!top" expanded="false" />
             <element signature="n#addNewAssign#0;n#ajaxHandler#0;n#!!top" expanded="false" />
             <element signature="n#getSubjectsByChangingStep#0;n#ajaxHandler#0;n#!!top" expanded="false" />
@@ -918,26 +987,38 @@
             <element signature="n#getDefaultTagAndSubject#0;n#ajaxHandler#0;n#!!top" expanded="false" />
             <element signature="n#deleteSelectedSubjectFromAssign#0;n#ajaxHandler#0;n#!!top" expanded="false" />
             <element signature="n#getMySchedules#0;n#ajaxHandler#0;n#!!top" expanded="false" />
-            <element signature="e#8588#10159#0#PHP" expanded="false" />
-            <element signature="e#9705#10159#0#PHP" expanded="false" />
-            <element signature="e#10173#10654#0#PHP" expanded="false" />
+            <element signature="e#8585#10156#0#PHP" expanded="false" />
+            <element signature="e#9702#10156#0#PHP" expanded="false" />
+            <element signature="e#10170#10651#0#PHP" expanded="false" />
             <element signature="n#createPDF#0;n#ajaxHandler#0;n#!!top" expanded="false" />
             <element signature="n#parse#0;n#ajaxHandler#0;n#!!top" expanded="false" />
             <element signature="n#getChatId#0;n#ajaxHandler#0;n#!!top" expanded="false" />
+            <marker date="1497547923744" expanded="true" signature="118:13127" placeholder="..." />
+            <marker date="1497547923744" expanded="true" signature="557:1357" placeholder="..." />
+            <marker date="1497547923744" expanded="true" signature="1365:1869" placeholder="..." />
+            <marker date="1497547923744" expanded="true" signature="12470:13125" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#2155#2179#0#HTML" expanded="true" />
+            <element signature="e#2408#2427#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/ajaxHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="227" column="1" selection-start-line="227" selection-start-column="1" selection-end-line="227" selection-end-column="1" />
+        <state relative-caret-position="53">
+          <caret line="1" column="90" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
           <folding>
             <element signature="n#!!block;n#generalChangeDegree#0" expanded="false" />
             <element signature="e#120#642#0" expanded="false" />
-            <element signature="e#137#634#0" expanded="false" />
-            <element signature="e#230#358#0" expanded="false" />
-            <element signature="e#401#624#0" expanded="false" />
             <element signature="e#652#1125#0" expanded="false" />
             <element signature="e#669#1117#0" expanded="false" />
             <element signature="e#762#841#0" expanded="false" />
@@ -992,49 +1073,36 @@
             <element signature="e#6515#6738#0" expanded="false" />
             <element signature="e#6584#6656#0" expanded="false" />
             <element signature="e#6693#6732#0" expanded="false" />
-            <marker date="1494698247055" expanded="false" signature="2748:2765" placeholder="..." />
-            <marker date="1494698247055" expanded="false" signature="2979:2995" placeholder="..." />
+            <marker date="1497547899089" expanded="false" signature="2748:2765" placeholder="..." />
+            <marker date="1497547899089" expanded="false" signature="2979:2995" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/menu.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        <state relative-caret-position="636">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="n#home#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#addAdviser#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#doAddAdviser#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#login#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#doLogin#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#logout#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#addTag#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#doOpOnTag#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#addStudent#0;n#HomeController#0;n#!!top" expanded="false" />
+            <element signature="n#doAddStudent#0;n#HomeController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/subjects.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="19" column="96" selection-start-line="19" selection-start-column="96" selection-end-line="19" selection-end-column="96" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/schedule.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7689">
-          <caret line="233" column="34" selection-start-line="233" selection-start-column="34" selection-end-line="233" selection-end-column="34" />
-          <folding>
-            <marker date="1494700577774" expanded="true" signature="3380:3392" placeholder="..." />
-            <marker date="1494700577774" expanded="true" signature="4346:4382" placeholder="..." />
-            <marker date="1494700577774" expanded="true" signature="4364:4382" placeholder="..." />
-            <marker date="1494700577774" expanded="true" signature="4753:4789" placeholder="..." />
-            <marker date="1494700577774" expanded="true" signature="7497:7509" placeholder="..." />
-            <marker date="1494700577774" expanded="true" signature="7497:7534" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SchedulerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="n#addSchedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
-            <element signature="e#1286#2386#0#PHP" expanded="false" />
-            <element signature="e#1808#2386#0#PHP" expanded="false" />
-            <element signature="e#2533#2920#0#PHP" expanded="false" />
-            <element signature="n#doAddSchedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
-            <element signature="e#2985#5682#0#PHP" expanded="false" />
-            <element signature="e#5528#5682#0#PHP" expanded="false" />
-            <element signature="n#schedule#0;n#SchedulerController#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

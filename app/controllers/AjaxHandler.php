@@ -4,8 +4,8 @@ include_once 'mpdf60/mpdf.php';
 
 class ajaxHandler extends BaseController {
 
-    public function getLessons()
-    {
+    public function getLessons() {
+
         $degreeId = makeValidInput($_POST["degreeId"]);
         $mode = makeValidInput($_POST["mode"]);
         $lessons = Degree::find($degreeId)->lessons()->get();

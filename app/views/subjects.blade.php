@@ -5,7 +5,7 @@
 @stop
 
 @section('extraLibraries')
-    <script src = "{{URL::asset('js/ajaxHandler.js')}}"></script>
+    <script src = "{{URL::asset('public/js/ajaxHandler.js')}}"></script>
 @stop
 
 @section('reminder')

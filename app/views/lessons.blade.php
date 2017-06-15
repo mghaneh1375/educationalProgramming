@@ -11,7 +11,7 @@
             generalChangeDegree(did, 'lesson', 1, -1, '', -1);
         });
     </script>
-    <script src = "{{URL::asset('js/ajaxHandler.js')}}"></script>
+    <script src = "{{URL::asset('public/js/ajaxHandler.js')}}"></script>
 @stop
 
 @section('reminder')
@@ -19,7 +19,7 @@
         <div class="row data">
             <center>
                 @if($mode == 'see')
-                    <form method="post" action="{{htmlspecialchars($_SERVER["PHP_SELF"])}}">
+                    <form method="post" action="{{URL('lessons')}}" enctype="multipart/form-data">
                         <div class="col-xs-12">
                             <label>
                                 <span>پایه ی تحصیلی مورد نظر</span>
@@ -45,12 +45,20 @@
                             <input type="submit" name="addNewLesson" class="MyBtn" style="width: auto" value="اضافه کن">
                         </div>
 
+                        <div class="col-xs-12" style="margin-top: 20px">
+                            <input type="file" name="batchLessons">
+                        </div>
+
+                        <div class="col-xs-12">
+                            <input type="submit" name="addBatch" class="MyBtn" style="width: auto" value="اضافه کردن دسته ای دروس">
+                        </div>
+
                         <div class="col-xs-12" id="lesson">
                         </div>
                     </form>
 
                 @elseif($mode == 'edit')
-                    <form method="post" action="{{htmlspecialchars($_SERVER["PHP_SELF"])}}">
+                    <form method="post" action="{{URL('lessons')}}">
                         <div class="col-xs-12">
                             <label>
                                 <span>پایه ی تحصیلی جدید مورد نظر</span>

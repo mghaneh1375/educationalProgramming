@@ -1,68 +1,71 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
-*/
+
+Route::group(array('before' => 'auth|levelController:1'), function (){
+
+    Route::get('/tag', 'HomeController@addTag');
+
+    Route::post('/tag', 'HomeController@doOpOnTag');
+
+    Route::get('/addAdviser', 'HomeController@addAdviser');
+
+    Route::post('/addAdviser', 'HomeController@doAddAdviser');
+
+    Route::get('/addStudent', 'HomeController@addStudent');
+
+    Route::post('/addStudent', 'HomeController@doAddStudent');
+
+    Route::get('/addQuiz', 'HomeController@addQuiz');
+
+    Route::post('/addQuiz', 'HomeController@doAddQuiz');
+
+    Route::get('/grades', 'ReportHandler@grades');
+
+    Route::post('/grades', 'ReportHandler@opOnGrades');
+
+    Route::get('/lessons', 'LessonController@lessons');
+
+    Route::post('/lessons', 'LessonController@opOnLessons');
+
+    Route::get('/subjects', 'ReportHandler@subjects');
+
+    Route::post('/subjects', 'ReportHandler@opOnSubjects');
+
+    Route::get('/quizes', 'ReportHandler@quizes');
+
+    Route::get('/stages', 'ReportHandler@stages');
+
+    Route::post('/quizes', 'ReportHandler@opOnQuiz');
+
+    Route::post('getLessonsByChangingDegree', 'AjaxHandler@getLessons');
+});
 
 
-Route::get('/', array('before' => 'auth', 'uses' => 'HomeController@home'));
+Route::group(array('before' => 'auth|levelController:1'), function() {
 
-Route::get('/home', array('before' => 'auth', 'uses' => 'HomeController@home'));
+    Route::post('addLessonBatch', 'LessonController@addBatch');
 
-Route::get('/logout', 'HomeController@logout');
+});
 
-Route::get('/tag', array('before' => 'auth|levelController:1', 'uses' => 'HomeController@addTag'));
+Route::group(array('before' => 'auth'), function (){
 
-Route::post('/tag', array('before' => 'auth|levelController:1', 'uses' => 'HomeController@doOpOnTag'));
+    Route::get('/', 'HomeController@home');
 
-Route::get('/addAdviser', array('before' => 'auth|levelController:1', 'uses' => 'HomeController@addAdviser'));
+    Route::get('home', 'HomeController@home');
 
-Route::post('/addAdviser', array('before' => 'auth|levelController:1', 'uses' => 'HomeController@doAddAdviser'));
+    Route::get('logout', 'HomeController@logout');
 
-Route::get('/addStudent', array('before' => 'auth|levelController:2', 'uses' => 'HomeController@addStudent'));
+    Route::get('/schedules', 'SchedulerController@addSchedule');
 
-Route::post('/addStudent', array('before' => 'auth|levelController:2', 'uses' => 'HomeController@doAddStudent'));
+    Route::post('/schedules', 'SchedulerController@doAddSchedule');
 
-Route::get('/addQuiz', array('before' => 'auth|levelController:1', 'uses' => 'HomeController@addQuiz'));
+    Route::get('/schedule={schedulerId}', 'SchedulerController@schedule');
+});
 
-Route::post('/addQuiz', array('before' => 'auth|levelController:1', 'uses' => 'HomeController@doAddQuiz'));
 
-Route::get('/schedules', array('before' => 'auth', 'uses' => 'SchedulerController@addSchedule'));
+Route::get('login', 'HomeController@login');
 
-Route::post('/schedules', array('before' => 'auth', 'uses' => 'SchedulerController@doAddSchedule'));
-
-Route::get('/schedule={schedulerId}', array('before' => 'auth', 'uses' => 'SchedulerController@schedule'));
-
-Route::get('/login', 'HomeController@login');
-
-Route::post('/login', 'HomeController@doLogin');
-
-Route::get('/grades', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@grades'));
-
-Route::post('/grades', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@opOnGrades'));
-
-Route::get('/lessons', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@lessons'));
-
-Route::post('/lessons', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@opOnLessons'));
-
-Route::get('/subjects', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@subjects'));
-
-Route::post('/subjects', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@opOnSubjects'));
-
-Route::get('/quizes', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@quizes'));
-
-Route::get('/stages', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@stages'));
-
-Route::post('/quizes', array('before' => 'auth|levelController:1', 'uses' => 'ReportHandler@opOnQuiz'));
-
-Route::post('getLessonsByChangingDegree', 'AjaxHandler@getLessons');
+Route::post('login', 'HomeController@doLogin');
 
 Route::post('getSubjectsByChangingLesson', 'AjaxHandler@getSubjects');
 

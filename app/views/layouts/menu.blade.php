@@ -14,7 +14,7 @@
         <div class="col-xs-12 col-md-3 col-md-push-9" style="height: auto">
             <center style="cursor: pointer; margin-top: 10px; margin-bottom: 10px">
                 <div style="width: 100%">
-                    <img class="circling" style="width: 100%; height: 150px" src={{URL::asset('images/logo.png')}}>
+                    <img class="circling" style="width: 100%; height: 150px" src={{URL::asset('public/images/logo.png')}}>
                 </div>
             </center>
 

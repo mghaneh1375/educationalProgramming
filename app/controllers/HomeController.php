@@ -47,12 +47,13 @@ class HomeController extends BaseController {
 
 		$username = makeValidInput(Input::get('username'));
 		$password = makeValidInput(Input::get('password'));
+
 		if(Auth::attempt(array('username' => $username, 'password' => $password))) {
 			$a = User::where('username', '=', $username)->select('user.level', 'user.id')->get();
-//			if($a[0]->level == '3') {
-//				$msg = 'شما اجازه ی ورود به سیستم را ندارید';
-//				return View::make('login', array('msg' => $msg));
-//			}
+			if($a[0]->level == '3') {
+				$msg = 'شما اجازه ی ورود به سیستم را ندارید';
+				return View::make('login', array('msg' => $msg));
+			}
 			Session::put('level', $a[0]->level);
 			Session::put('uId', $a[0]->id);
 			return Redirect::intended('/');

@@ -11,7 +11,7 @@
                 <h3>دانش آموز جدید</h3>
                 <div class="line"></div>
             </center>
-            <form method="post" action="{{ htmlspecialchars($_SERVER['PHP_SELF']) }}">
+            <form method="post" action="{{URL('addStudent')}}">
                 <div class="myRegister">
                     <div class="row data">
                         @include('layouts.newUserForm')

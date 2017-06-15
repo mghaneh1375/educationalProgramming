@@ -15,7 +15,7 @@
         <div class="line"></div>
         <div class="myRegister">
             <center class="data">
-                <form method="post" action="{{htmlspecialchars($_SERVER["PHP_SELF"])}}">
+                <form method="post" action="{{URL('login')}}">
                     <div class="row">
                         <div class="col-xs-12">
                             <label>
